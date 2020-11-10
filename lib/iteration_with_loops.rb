@@ -4,7 +4,7 @@ outer_index = 0
 while outer_index < find_even_values.length do 
   inner_index = 0 
   while inner_index < find_even_values[outer_index].length do 
-    p find_even_values[outer_index][inner_index] 
+    if find_even_values[outer_index][inner_index] % 2
 
 
 end
