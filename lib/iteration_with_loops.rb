@@ -7,6 +7,7 @@ while outer_index < find_even_values.length do
     if find_even_values[outer_index][inner_index] % 2 
       p find_even_values[outer_index][inner_index]
     end
-    
-
+      inner_index += 1
+  end
+  outer_index +=1
 end
