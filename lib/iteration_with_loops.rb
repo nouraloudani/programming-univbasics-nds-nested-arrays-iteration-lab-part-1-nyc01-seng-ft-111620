@@ -5,7 +5,7 @@ outer_index = 0
 while outer_index < src.length do 
   inner_index = 0 
   while inner_index < src[outer_index].length do 
-    if src[outer_index][inner_index] % 2 
+    if src[outer_index][inner_index] % 2 == 0
       p src[outer_index][inner_index]
     end
       inner_index += 1
